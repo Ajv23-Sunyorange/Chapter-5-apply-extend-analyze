@@ -1,0 +1,81 @@
+/*
+Style sheet created by: Anthony Vecchiarello
+Today's Date: 2024/5/3 
+*/
+
+body {
+    background-color: #dde3fd;
+}
+
+#container {
+    padding-bottom: 500px;
+}
+
+.box {
+    border: 1px solid #000;
+    margin: 2%;
+    padding: 2%;
+    background-color: #798ef6;
+    color: #091034;
+    width: 400px;
+    height: 170px;
+}
+
+/* Mobile viewport */
+/* Styles for mobile viewport begin here */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rules for mobile viewport */
+/* End of mobile viewport styles */
+
+/* Hide bullet marker */
+nav ul {
+    list-style-type: none;
+}
+
+/* Display list items as inline-block */
+nav li {
+    display: inline-block;
+}
+
+/* Font family for header h1 */
+header h1 {
+    font-family: 'Font Family Name', sans-serif;
+}
+
+/* Font family for main */
+main {
+    font-family: 'Font Family Name', sans-serif;
+}
+
+/* Hide tablet-desktop class */
+/* Style rule to hide tablet-desktop class */
+.tablet-desktop {
+    display: none;
+}
+
+/* Style rule for btn class */
+.btn {
+    background-color: #375f1b;
+    padding: 2%;
+    margin: 2% auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Style rule for anchor elements within btn class */
+.btn a {
+    color: #ebf7e3;
+    text-decoration: none;
+    font-size: 1.25em;
+    display: block;
+}
+
+/* Style rule for corner class */
+.corner {
+    border-radius: 12px;
+}
